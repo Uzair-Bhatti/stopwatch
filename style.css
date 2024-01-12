@@ -1,0 +1,54 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(44, 42, 42);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    font-family: 'Raleway', sans-serif; 
+}
+
+
+.stopwatch{
+    background-color: black;
+    padding: 18px 15px;
+    border-radius: 25px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.button {
+    margin-top:15px;
+}
+.btn{
+    font-size: 18px;
+    background: none;
+    border: none;
+    color:white;
+    padding: 12px 20px;
+    margin-inline: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.startBtn{
+    background-color: rgb(9, 0, 128);
+}
+
+.stopBtn{
+    background-color: red;
+}
+
+.resetBtn{
+    background-color:rgb(0, 255, 21);
+}
